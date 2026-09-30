@@ -219,4 +219,19 @@ class ReservaServiceTest {
         verifyNoInteractions(disponibilidad, repository, notificador);
     }
 
+    @Test
+    void reservaConIdVacioLanzaExcepcion() {
+        // Arrange
+        String id = "";
+        String tipo = "NORMAL";
+
+        // Act
+        IllegalArgumentException excepcion = assertThrows(
+                IllegalArgumentException.class,
+                () -> new Reserva(id, tipo));
+
+        // Assert
+        assertEquals("Id obligatorio", excepcion.getMessage());
+    }
+
 }

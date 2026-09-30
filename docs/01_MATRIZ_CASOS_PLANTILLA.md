@@ -14,3 +14,4 @@
 | CP-10 | Confirmación | Horario no disponible | Reserva + disponibilidad false | IllegalStateException | Alternativo/Excepción | Evita confirmar una reserva cuando el horario no está disponible. |
 | CP-11 | Confirmación | Reserva nula | null | IllegalArgumentException | Inválido/Excepción | Evita procesar una confirmación sin reserva. |
 | CP-12 | Descuento | Tipo VIP en minúsculas | vip, 100 | 85.00 | Alternativo | Verifica que el tipo de cliente no dependa de mayúsculas o minúsculas. |
+| CP-13 | Reserva | Identificador vacío | id vacío, tipo NORMAL | IllegalArgumentException | Inválido/Excepción | Verifica la validación del constructor detectada como cobertura parcial mediante JaCoCo. |
