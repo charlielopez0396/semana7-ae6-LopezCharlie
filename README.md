@@ -91,7 +91,7 @@ La descripción preparada para el Pull Request se encuentra en:
 
 `docs/03_PULL_REQUEST_PLANTILLA.md`
 
-El enlace al Pull Request se incorporará una vez creado en GitHub.
+Pull Request: https://github.com/charlielopez0396/semana7-ae6-LopezCharlie/pull/1
 
 ## Regla de trabajo
 
